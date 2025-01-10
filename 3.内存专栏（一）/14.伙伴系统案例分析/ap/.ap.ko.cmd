@@ -1,1 +1,0 @@
-savedcmd_/root/linux-5.6.18/test_myself/ap/ap.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /root/linux-5.6.18/test_myself/ap/ap.ko /root/linux-5.6.18/test_myself/ap/ap.o /root/linux-5.6.18/test_myself/ap/ap.mod.o
