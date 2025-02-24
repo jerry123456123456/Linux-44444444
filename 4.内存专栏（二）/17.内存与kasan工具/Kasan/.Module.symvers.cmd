@@ -1,0 +1,1 @@
+savedcmd_/root/linux-5.6.18/test_myself/Kasan/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /root/linux-5.6.18/test_myself/Kasan/Module.symvers -T /root/linux-5.6.18/test_myself/Kasan/modules.order -i Module.symvers -e 

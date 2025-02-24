@@ -1,0 +1,1 @@
+savedcmd_/root/linux-5.6.18/test_myself/mempooldemo/mempooldemo.mod := printf '%s\n'   mempooldemo.o | awk '!x[$$0]++ { print("/root/linux-5.6.18/test_myself/mempooldemo/"$$0) }' > /root/linux-5.6.18/test_myself/mempooldemo/mempooldemo.mod

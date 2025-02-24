@@ -1,0 +1,1 @@
+savedcmd_/root/linux-5.6.18/test_myself/mmap/lk_mmap/lk_mmap.mod := printf '%s\n'   lk_mmap.o | awk '!x[$$0]++ { print("/root/linux-5.6.18/test_myself/mmap/lk_mmap/"$$0) }' > /root/linux-5.6.18/test_myself/mmap/lk_mmap/lk_mmap.mod

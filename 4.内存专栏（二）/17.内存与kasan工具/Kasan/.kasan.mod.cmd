@@ -1,0 +1,1 @@
+savedcmd_/root/linux-5.6.18/test_myself/Kasan/kasan.mod := printf '%s\n'   kasan.o | awk '!x[$$0]++ { print("/root/linux-5.6.18/test_myself/Kasan/"$$0) }' > /root/linux-5.6.18/test_myself/Kasan/kasan.mod

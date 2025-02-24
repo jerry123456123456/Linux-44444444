@@ -1,0 +1,1 @@
+savedcmd_/root/linux-5.6.18/test_myself/kcalloc/kcalloc.mod := printf '%s\n'   kcalloc.o | awk '!x[$$0]++ { print("/root/linux-5.6.18/test_myself/kcalloc/"$$0) }' > /root/linux-5.6.18/test_myself/kcalloc/kcalloc.mod

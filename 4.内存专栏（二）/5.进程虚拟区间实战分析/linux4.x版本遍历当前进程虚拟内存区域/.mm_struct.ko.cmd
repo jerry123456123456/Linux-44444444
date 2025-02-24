@@ -1,0 +1,1 @@
+cmd_/home/king/linux-5.6.14/test/mm_struct/mm_struct.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/king/linux-5.6.14/test/mm_struct/mm_struct.ko /home/king/linux-5.6.14/test/mm_struct/mm_struct.o /home/king/linux-5.6.14/test/mm_struct/mm_struct.mod.o
